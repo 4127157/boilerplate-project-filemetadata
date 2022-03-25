@@ -18,7 +18,7 @@ app.post('/api/fileanalyse', upload, (req, res) => {
     if(req.file) {
         console.log(req.file);
     }
-}
+});
 
 
 const port = process.env.PORT || 3000;
